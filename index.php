@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Moja strona</title>
 </head>
 <body>
-  <h1 align="center">Test wykonany poprawnie</p>
+  <h1 align="center">Test wykonany poprawnie</h1>
 </body>
 </html>
