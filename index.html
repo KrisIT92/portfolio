@@ -126,9 +126,9 @@
             <div class="container">
                 <p class="m-0 text-center text-white">
             
-                <span>Copyright &copy; <?php $rok=date("Y"); echo $rok; ?> </span>
+                <span>Copyright &copy;<!-- <?php $rok=date("Y"); echo $rok; ?>--> </span>
                  <p class="m-0 text-center text-white">by Krzysztof Nowak </p>
-   <p class="m-0 text-center text-white">
+  <!-- <p class="m-0 text-center text-white">
 <?php
 // prints e.g. 'Current PHP version: 4.1.1'
 echo 'Wesja php: ' . phpversion();
@@ -140,7 +140,7 @@ echo phpversion('tidy');
 <p class="m-0 text-center text-white">
     Adres IP: <a href="<?php echo $_SERVER['REMOTE_ADDR']; ?>"><?php echo $_SERVER['REMOTE_ADDR']; ?></a>
 </p>
-            </p></div>
+            </p>--></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
