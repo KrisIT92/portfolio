@@ -1,0 +1,104 @@
+/* Custom Styles */
+.logo{
+  width: 67%;
+}
+/* Navbar */
+
+.navbar {
+    background-color: #343a40;
+  }
+  
+  .navbar.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+  }
+  
+  .navbar.navbar-dark .navbar-nav .nav-link:hover {
+    color: #cccccc;
+  }
+  
+  /* Section Headings */
+  h2.display-4 {
+    color: #343a40;
+  }
+  
+  /* About Section */
+  #about {
+    background-color: #8e9296;
+    background-image: url("../img/aboutme.jpg");
+    padding-top: 100px;
+    padding-bottom: 100px;
+   
+  }
+  .img-fluid{
+    max-width: 80%;
+    box-shadow: 0px 0px 20px 1px black;
+  }
+  
+  /* Education and Certificates Section */
+  #education {
+    background-image: url("../img/education.jpg");
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  /* Experience Section */
+  #experience {
+    background-image: url("../img/experience.jpg");
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  /* Skills Section */
+  #skills {
+    background-image: url("../img/skills.jpg");
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  /* Projects Section */
+  #projects {
+    background-image: url("../img/projects.jpg");
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  /* References Section */
+  #references {
+    background-image: url("../img/references.jpg");
+    background-color: #f8f9fa;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-image: url("../img/contact.jpg");
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    margin-bottom: 0;
+  }
+  
+  /* Image Styling */
+  .rounded-circle {
+    border-radius: 50%;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      margin-left: auto;
+    }
+  }
+  
